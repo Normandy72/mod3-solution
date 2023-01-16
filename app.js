@@ -36,7 +36,6 @@
             promise.then(function(items){
                 if(items && items.length > 0 && searchTerm.length > 0){
                     ctrl.found = items;
-                    console.log('ctrl found = ', ctrl.found);
                 }
                 else{
                     ctrl.found = [];
